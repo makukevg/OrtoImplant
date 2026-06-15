@@ -22,6 +22,14 @@
         .bg-premium {
             background: radial-gradient(circle at top right, #f0fdfa, #ffffff);
         }
+
+        .img-card {
+            transition: transform 0.5s ease;
+        }
+
+        .img-card:hover {
+            transform: scale(1.05);
+        }
     </style>
 </head>
 
@@ -43,7 +51,7 @@
     <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-premium overflow-hidden">
         <div class="container mx-auto px-6 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                <div>
+                <div class="text-left">
                     <div
                         class="inline-flex items-center gap-2 bg-teal-50 text-teal-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-6 border border-teal-100">
                         ✨ Especialistas en Rehabilitación Oral
@@ -67,9 +75,9 @@
                 <div class="relative">
                     <div
                         class="relative rounded-3xl overflow-hidden shadow-2xl border-[12px] border-white transform rotate-2 hover:rotate-0 transition-transform duration-500">
-                        <!-- IMAGEN: Mujer revisando dientes (Link 1) -->
-                        <img src="https://images.unsplash.com/photo-1588776814547-28ed9ca977ca?q=80&w=1000"
-                            alt="Checkup Dental" class="w-full h-full object-cover">
+                        <!-- IMAGEN HERO: Revisión Dental (Link 1) -->
+                        <img src="https://i.ibb.co/nrcH57Z/img1.jpg" alt="Checkup Dental"
+                            class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>
@@ -92,9 +100,8 @@
                 <div
                     class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all">
                     <div class="h-64 overflow-hidden">
-                        <!-- IMAGEN: Modelo de implante (Link 5) -->
-                        <img src="https://images.unsplash.com/photo-1606846805070-79197737750d?q=80&w=600"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        <!-- IMAGEN: Modelo Implante (Link 5) -->
+                        <img src="https://i.ibb.co/SygS7H2/img5.jpg" class="w-full h-full object-cover img-card"
                             alt="Implantes">
                     </div>
                     <div class="p-8">
@@ -109,9 +116,8 @@
                 <div
                     class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all">
                     <div class="h-64 overflow-hidden">
-                        <!-- IMAGEN: Diente con aparatos (Link 3) -->
-                        <img src="https://images.unsplash.com/photo-1593021854177-577793287883?q=80&w=600"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        <!-- IMAGEN: Brackets (Link 3) -->
+                        <img src="https://i.ibb.co/wSshK8Y/img3.jpg" class="w-full h-full object-cover img-card"
                             alt="Ortodoncia">
                     </div>
                     <div class="p-8">
@@ -122,13 +128,12 @@
                     </div>
                 </div>
 
-                <!-- Endodoncia / Rehabilitación -->
+                <!-- Endodoncia -->
                 <div
                     class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all">
                     <div class="h-64 overflow-hidden">
-                        <!-- IMAGEN: Dentadura postiza/modelos (Link 6) -->
-                        <img src="https://images.unsplash.com/photo-1588776814547-28ed9ca977ca?q=80&w=600"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        <!-- IMAGEN: Dental Tech/Endo (Link 4) -->
+                        <img src="https://i.ibb.co/C8vM6S3/img4.jpg" class="w-full h-full object-cover img-card"
                             alt="Endodoncia">
                     </div>
                     <div class="p-8">
@@ -143,8 +148,8 @@
                 <div
                     class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all">
                     <div class="h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=600"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        <!-- IMAGEN: Dental Model/X-Ray (Link 7) -->
+                        <img src="https://i.ibb.co/xLzG7Cj/img7.jpg" class="w-full h-full object-cover img-card"
                             alt="Maxilofacial">
                     </div>
                     <div class="p-8">
@@ -159,8 +164,8 @@
                 <div
                     class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all">
                     <div class="h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1606846805070-79197737750d?q=80&w=600"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        <!-- IMAGEN: Sonrisa Result (Link 9) -->
+                        <img src="https://i.ibb.co/TfX1R9B/img9.jpg" class="w-full h-full object-cover img-card"
                             alt="Diseño Sonrisa">
                     </div>
                     <div class="p-8">
@@ -171,13 +176,12 @@
                     </div>
                 </div>
 
-                <!-- Chequeo General -->
+                <!-- Odontología General -->
                 <div
                     class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-2xl transition-all">
                     <div class="h-64 overflow-hidden">
-                        <!-- IMAGEN: Chequeo anual (Link 7) -->
-                        <img src="https://images.unsplash.com/photo-1629909606047-35577566549d?q=80&w=600"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        <!-- IMAGEN: Chequeo Anual (Link 10) -->
+                        <img src="https://i.ibb.co/vC6Z3Sj/img10.jpg" class="w-full h-full object-cover img-card"
                             alt="General">
                     </div>
                     <div class="p-8">
