@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-H">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>OrtoImplant | Odontología de Alta Gama en Machala</title>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
@@ -27,7 +27,7 @@
 
 <body class="bg-white text-slate-900">
 
-    <!-- NAVBAR MODERNA -->
+    <!-- NAVBAR -->
     <nav class="fixed w-full z-50 glass border-b border-slate-100">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <div class="text-2xl font-extrabold tracking-tighter text-slate-900">
@@ -39,7 +39,7 @@
         </div>
     </nav>
 
-    <!-- HERO SECTION (MÁS IMPACTANTE) -->
+    <!-- HERO SECTION -->
     <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-gradient-premium overflow-hidden">
         <div class="container mx-auto px-6 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -69,7 +69,6 @@
                             el Proceso</a>
                     </div>
                 </div>
-
                 <div class="relative">
                     <div
                         class="absolute -top-20 -right-20 w-96 h-96 bg-teal-100 rounded-full filter blur-3xl opacity-50">
@@ -84,7 +83,7 @@
         </div>
     </section>
 
-    <!-- SECCIÓN PROCESO (Saca la web de lo "Genérico") -->
+    <!-- PROCESO CON IMAGENES -->
     <section id="proceso" class="py-24 bg-white">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
@@ -93,32 +92,42 @@
                 </p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Paso 1 -->
                 <div class="text-center group">
-                    <div
-                        class="w-16 h-16 bg-teal-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform">
-                        1</div>
-                    <h3 class="text-xl font-bold mb-3">Evaluación Digital</h3>
+                    <div class="mb-6 overflow-hidden rounded-2xl shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1588776814547-28ed9ca977ca?auto=format&fit=crop&q=80&w=400"
+                            class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+                            alt="Evaluacion">
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">1. Evaluación Digital</h3>
                     <p class="text-slate-600">Análisis profundo con tecnología de punta para entender tu caso único.</p>
                 </div>
+                <!-- Paso 2 -->
                 <div class="text-center group">
-                    <div
-                        class="w-16 h-16 bg-teal-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform">
-                        2</div>
-                    <h3 class="text-xl font-bold mb-3">Plan Maestro</h3>
+                    <div class="mb-6 overflow-hidden rounded-2xl shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba9//photo-1576091160550-2173dba9?auto=format&fit=crop&q=80&w=400"
+                            onerror="this.src='https://images.unsplash.com/photo-1588776814547-28ed9ca977ca?auto=format&fit=crop&q=80&w=400'"
+                            class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+                            alt="Plan">
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">2. Plan Maestro</h3>
                     <p class="text-slate-600">Diseñamos la hoja de ruta exacta para tu tratamiento, sin sorpresas.</p>
                 </div>
+                <!-- Paso 3 -->
                 <div class="text-center group">
-                    <div
-                        class="w-16 h-16 bg-teal-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg group-hover:scale-110 transition-transform">
-                        3</div>
-                    <h3 class="text-xl font-bold mb-3">Nueva Sonrisa</h3>
+                    <div class="mb-6 overflow-hidden rounded-2xl shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1588776814547-28ed9ca977ca?auto=format&fit=crop&q=80&w=400"
+                            class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+                            alt="Resultado">
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">3. Nueva Sonrisa</h3>
                     <p class="text-slate-600">Ejecución experta y seguimiento constante hasta lograr la perfección.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SERVICIOS PREMIUM -->
+    <!-- SERVICIOS CON FOTOS REALES -->
     <section class="py-24 bg-slate-50">
         <div class="container mx-auto px-6">
             <div class="flex flex-col lg:flex-row justify-between items-end mb-16 gap-6">
@@ -130,48 +139,75 @@
                     nuestros pacientes.</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Card Servicio -->
+                <!-- Implantes -->
                 <div
-                    class="bg-white p-10 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
-                    <div
-                        class="w-12 h-12 bg-teal-50 text-teal-600 rounded-xl flex items-center justify-center mb-6 group-hover:bg-teal-600 group-hover:text-white transition-all">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
+                    class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
+                    <img src="https://images.unsplash.com/photo-1588776814547-28ed9ca977ca?auto=format&fit=crop&q=80&w=500"
+                        class="w-full h-48 object-cover" alt="Implantes">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-4">Implantes</h3>
+                        <p class="text-slate-600 leading-relaxed">La solución definitiva para recuperar dientes perdidos
+                            con materiales biocompatibles.</p>
                     </div>
-                    <h3 class="text-2xl font-bold mb-4">Implantes</h3>
-                    <p class="text-slate-600 leading-relaxed">La solución definitiva para recuperar dientes perdidos con
-                        materiales biocompatibles de alta durabilidad.</p>
                 </div>
+                <!-- Ortodoncia -->
                 <div
-                    class="bg-white p-10 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
-                    <div
-                        class="w-12 h-12 bg-teal-50 text-teal-600 rounded-xl flex items-center justify-center mb-6 group-hover:bg-teal-600 group-hover:text-white transition-all">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M13 10V3L4 14h7v7l9-11h-7z" />
-                        </svg>
+                    class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
+                    <img src="https://images.unsplash.com/photo-1588776814547-28ed9ca977ca?auto=format&fit=crop&q=80&w=500"
+                        class="w-full h-48 object-cover" alt="Ortodoncia">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-4">Ortodoncia</h3>
+                        <p class="text-slate-600 leading-relaxed">Alineación perfecta mediante brackets tradicionales o
+                            sistemas invisibles.</p>
                     </div>
-                    <h3 class="text-2xl font-bold mb-4">Ortodoncia</h3>
-                    <p class="text-slate-600 leading-relaxed">Alineación perfecta mediante brackets tradicionales o
-                        sistemas invisibles para una estética impecable.</p>
                 </div>
+                <!-- Endodoncia -->
                 <div
-                    class="bg-white p-10 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
-                    <div
-                        class="w-12 h-12 bg-teal-50 text-teal-600 rounded-xl flex items-center justify-center mb-6 group-hover:bg-teal-600 group-hover:text-white transition-all">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
+                    class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
+                    <img src="https://images.unsplash.com/photo-1588776814547-28ed9ca977ca?auto=format&fit=crop&q=80&w=500"
+                        class="w-full h-48 object-cover" alt="Endodoncia">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-4">Endodoncia</h3>
+                        <p class="text-slate-600 leading-relaxed">Tratamientos de conducto precisos para salvar piezas
+                            dentales y eliminar el dolor.</p>
                     </div>
-                    <h3 class="text-2xl font-bold mb-4">Endodoncia</h3>
-                    <p class="text-slate-600 leading-relaxed">Tratamientos de conducto precisos para salvar piezas
-                        dentales y eliminar el dolor definitivamente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EQUIPO CON FOTOS (MODELOS) -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-extrabold text-slate-900 sm:text-5xl mb-16">Nuestro Equipo de Expertos</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <img src="https://images.unsplash.com/photo-1559839734-2b71f1e9c757?auto=format&fit=crop&q=80&w=300"
+                        class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-teal-500 shadow-lg"
+                        alt="Dra Mirna">
+                    <h3 class="font-bold text-slate-900">Dra. Mirna Encalada</h3>
+                    <p class="text-teal-600 text-sm">Especialista en Implantes</p>
+                </div>
+                <div class="text-center">
+                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6aabe82?auto=format&fit=crop&q=80&w=300"
+                        class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-teal-500 shadow-lg"
+                        alt="Dr Jose">
+                    <h3 class="font-bold text-slate-900">Dr. Jose Andres Madrid</h3>
+                    <p class="text-teal-600 text-sm">Odontólogo</p>
+                </div>
+                <div class="text-center">
+                    <img src="https://images.unsplash.com/photo-1537368910025-74d27ed3174d?auto=format&fit=crop&q=80&w=300"
+                        class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-teal-500 shadow-lg"
+                        alt="Dr Jorge">
+                    <h3 class="font-bold text-slate-900">Dr. Jorge Leon B.</h3>
+                    <p class="text-teal-600 text-sm">Maxilo Facial</p>
+                </div>
+                <div class="text-center">
+                    <img src="https://images.unsplash.com/photo-1622253692010-3ae228e4c259?auto=format&fit=crop&q=80&w=300"
+                        class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-teal-500 shadow-lg"
+                        alt="Dr Lenin">
+                    <h3 class="font-bold text-slate-900">Dr. Lenin Morocho</h3>
+                    <p class="text-teal-600 text-sm">Endodoncista</p>
                 </div>
             </div>
         </div>
