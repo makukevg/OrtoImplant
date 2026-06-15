@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>OrtoImplant - Clínica Dental de Élite en Machala</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .animate-blob {
+            animation: blob 7s infinite;
+        }
+
+        @keyframes blob {
+            0% {
+                transform: translate(0px, 0px) scale(1);
+            }
+
+            33% {
+                transform: translate(30px, -50px) scale(1.1);
+            }
+
+            66% {
+                transform: translate(-20px, 20px) scale(0.9);
+            }
+
+            100% {
+                transform: translate(0px, 0px) scale(1);
+            }
+        }
+
+        .animation-delay-2000 {
+            animation-delay: 2s;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- ===================================================================================
+       1. HERO SECTION
+       =================================================================================== -->
+    <section class="relative bg-white overflow-hidden pt-16 pb-32 lg:pt-24 lg:pb-40">
+        <div class="container mx-auto px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+                <div class="max-w-2xl text-left">
+                    <span class="text-teal-500 font-bold tracking-wide uppercase text-sm">
+                        Especialistas en Sonrisas en Machala
+                    </span>
+                    <h1 class="mt-4 text-5xl font-extrabold text-slate-900 tracking-tight sm:text-6xl leading-tight">
+                        Recupera tu confianza con una <span class="text-teal-600">Sonrisa Perfecta</span>
+                    </h1>
+                    <p class="mt-6 text-lg text-slate-600 leading-relaxed">
+                        En <strong class="text-slate-800">OrtoImplant</strong> combinamos la tecnología más avanzada en
+                        implantes y ortodoncia con la calidez humana. Expertos certificados para transformar tu vida y
+                        tu salud bucal.
+                    </p>
+
+                    <div class="mt-10 flex flex-col sm:flex-row gap-4">
+                        <a href="https://wa.me/593984638763" target="_blank"
+                            class="px-8 py-4 bg-teal-600 text-white font-bold rounded-full hover:bg-teal-700 transition-all text-center shadow-lg hover:shadow-teal-200">
+                            Agendar Cita Ahora
+                        </a>
+                        <a href="#servicios"
+                            class="px-8 py-4 bg-white text-slate-700 font-semibold rounded-full border border-slate-200 hover:bg-slate-50 transition-all text-center">
+                            Ver Servicios
+                        </a>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div
+                        class="absolute -top-4 -left-4 w-72 h-72 bg-teal-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob">
+                    </div>
+                    <div
+                        class="absolute -bottom-8 right-8 w-72 h-72 bg-blue-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000">
+                    </div>
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                        <img src="https://images.unsplash.com/photo-1629909606047-35577566549d?auto=format&fit=crop&q=80&w=800"
+                            alt="Clínica Dental Moderna" class="w-full h-full object-cover" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================================================
+       2. BARRA DE CONFIANZA
+       =================================================================================== -->
+    <div class="bg-slate-100 py-8 border-y border-slate-200">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-slate-500 text-sm font-medium uppercase tracking-widest">Especialistas Registrados en</p>
+            <div class="flex justify-center gap-8 mt-4 opacity-70 grayscale font-bold text-slate-700">
+                <span class="text-xl uppercase">Senescyt</span>
+                <span class="text-xl uppercase">MSP (Ministerio de Salud Pública)</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================================================
+       3. SECCIÓN DE SERVICIOS
+       =================================================================================== -->
+    <section id="servicios" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl">Nuestras Especialidades</h2>
+                <p class="mt-4 text-slate-600">Brindamos todas las especialidades odontológicas en un mismo lugar,
+                    asegurando una atención integral y profesional.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Servicio 1 -->
+                <div
+                    class="p-8 rounded-2xl border border-slate-100 bg-slate-50 hover:border-teal-500 transition-all group shadow-sm">
+                    <div
+                        class="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center text-teal-600 mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Implantes Dentales</h3>
+                    <p class="text-slate-600 leading-relaxed">Reemplazo permanente de dientes perdidos mediante
+                        fijaciones similares a un tornillo que se unen al hueso maxilar o mandibular.</p>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div
+                    class="p-8 rounded-2xl border border-slate-100 bg-slate-50 hover:border-teal-500 transition-all group shadow-sm">
+                    <div
+                        class="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center text-teal-600 mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Ortodoncia</h3>
+                    <p class="text-slate-600 leading-relaxed">Corrección de alteraciones dentarias y maxilares con el
+                        objetivo de restablecer el equilibrio de la estética facial-bucal.</p>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div
+                    class="p-8 rounded-2xl border border-slate-100 bg-slate-50 hover:border-teal-500 transition-all group shadow-sm">
+                    <div
+                        class="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center text-teal-600 mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.808 2.111l.287.65c.2.46.56.81.97.98l.32.16a2 2 0 001.808 2.111l.304.15a6 6 0 005.84-2.31l.318-.158a6 6 0 013.86-.517l.318-.158a2 2 0 001.808-2.111l-.287-.65a2 2 0 00-1.808-2.111z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Periodoncia</h3>
+                    <p class="text-slate-600 leading-relaxed">Tratamientos quirúrgicos de periodontitis, cirugía
+                        periodontal, injerto de hueso y regeneración de tejidos.</p>
+                </div>
+
+                <!-- Servicio 4 -->
+                <div
+                    class="p-8 rounded-2xl border border-slate-100 bg-slate-50 hover:border-teal-500 transition-all group shadow-sm">
+                    <div
+                        class="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center text-teal-600 mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Rehabilitación Oral</h3>
+                    <p class="text-slate-600 leading-relaxed">Especialistas en la restauración de las piezas dentales
+                        para devolver la funcionalidad y estética.</p>
+                </div>
+
+                <!-- Servicio 5 -->
+                <div
+                    class="p-8 rounded-2xl border border-slate-100 bg-slate-50 hover:border-teal-500 transition-all group shadow-sm">
+                    <div
+                        class="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center text-teal-600 mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Endodoncia</h3>
+                    <p class="text-slate-600 leading-relaxed">Tratamiento de conductos radiculares, extracción de pulpa
+                        lesionada y sellado del conducto pulpar.</p>
+                </div>
+
+                <!-- Servicio 6 -->
+                <div
+                    class="p-8 rounded-2xl border border-slate-100 bg-slate-50 hover:border-teal-500 transition-all group shadow-sm">
+                    <div
+                        class="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center text-teal-600 mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.808 2.111l.287.65c.2.46.56.81.97.98l.32.16a2 2 0 001.808 2.111l.304.15a6 6 0 005.84-2.31l.318-.158a6 6 0 013.86-.517l.318-.158a2 2 0 001.808-2.111l-.287-.65a2 2 0 00-1.808-2.111z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Odontología General</h3>
+                    <p class="text-slate-600 leading-relaxed">Diagnóstico primario del paciente y limpiezas dentales
+                        profundas para prevenir enfermedades.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================================================
+       4. SECCIÓN DEL EQUIPO
+       =================================================================================== -->
+    <section class="py-20 bg-slate-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl mb-16">Nuestro Equipo de Expertos</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <div
+                        class="w-24 h-24 bg-teal-100 rounded-full mx-auto mb-4 flex items-center justify-center text-teal-600 font-bold text-xl">
+                        ME</div>
+                    <h3 class="font-bold text-slate-900">Dra. Mirna Encalada</h3>
+                    <p class="text-teal-600 text-sm mb-3">Especialista en Implantes y Ortodoncia</p>
+                    <p class="text-slate-500 text-xs italic">Ortodoncia Rehabilitadora, lingual e invisible</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <div
+                        class="w-24 h-24 bg-teal-100 rounded-full mx-auto mb-4 flex items-center justify-center text-teal-600 font-bold text-xl">
+                        JAM</div>
+                    <h3 class="font-bold text-slate-900">Dr. Jose Andres Madrid</h3>
+                    <p class="text-teal-600 text-sm">Odontólogo</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <div
+                        class="w-24 h-24 bg-teal-100 rounded-full mx-auto mb-4 flex items-center justify-center text-teal-600 font-bold text-xl">
+                        JLB</div>
+                    <h3 class="font-bold text-slate-900">Dr. Jorge Leon B.</h3>
+                    <p class="text-teal-600 text-sm">Maxilo Facial</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <div
+                        class="w-24 h-24 bg-teal-100 rounded-full mx-auto mb-4 flex items-center justify-center text-teal-600 font-bold text-xl">
+                        LM</div>
+                    <h3 class="font-bold text-slate-900">Dr. Lenin Morocho</h3>
+                    <p class="text-teal-600 text-sm">Endodoncista</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================================================
+       5. TESTIMONIOS (Placeholders)
+       =================================================================================== -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl mb-16">Experiencias de Nuestros Pacientes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-8 bg-slate-50 rounded-2xl border-2 border-dashed border-slate-300 text-slate-400 italic">
+                    "Espacio reservado para testimonio real del paciente."
+                    <div class="mt-4 font-bold text-slate-500">— Nombre del Paciente</div>
+                </div>
+                <div class="p-8 bg-slate-50 rounded-2xl border-2 border-dashed border-slate-300 text-slate-400 italic">
+                    "Espacio reservado para testimonio real del paciente."
+                    <div class="mt-4 font-bold text-slate-500">— Nombre del Paciente</div>
+                </div>
+                <div class="p-8 bg-slate-50 rounded-2xl border-2 border-dashed border-slate-300 text-slate-400 italic">
+                    "Espacio reservado para testimonio real del paciente."
+                    <div class="mt-4 font-bold text-slate-500">— Nombre del Paciente</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================================================
+       6. SECCIÓN IA & CHATBOT INTEGRATION
+       =================================================================================== -->
+    <section class="py-20 bg-teal-600 text-white overflow-hidden relative">
+        <div
+            class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-96 h-96 bg-teal-500 rounded-full filter blur-3xl opacity-50">
+        </div>
+        <div
+            class="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/4 w-96 h-96 bg-blue-500 rounded-full filter blur-3xl opacity-50">
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span
+                        class="bg-teal-400 text-teal-900 font-bold px-3 py-1 rounded-full text-xs uppercase tracking-wider">Tecnología
+                        Aizly IA</span>
+                    <h2 class="mt-6 text-4xl font-extrabold leading-tight">
+                        Asistencia Dental <br> <span class="text-teal-200">Disponible 24/7</span>
+                    </h2>
+                    <p class="mt-6 text-lg text-teal-50 leading-relaxed">
+                        No esperes a la próxima llamada. Nuestro asistente inteligente puede resolver tus dudas sobre
+                        implantes, ortodoncia y ayudarte a gestionar tu visita de manera instantánea.
+                    </p>
+                    <div
+                        class="mt-8 flex items-center gap-4 bg-teal-700 p-4 rounded-2xl border border-teal-500 inline-flex">
+                        <div class="bg-white p-2 rounded-full">
+                            <span class="text-2xl">🤖</span>
+                        </div>
+                        <p class="text-sm font-medium italic">"Hola, soy el asistente de OrtoImplant. ¿En qué puedo
+                            ayudarte hoy?"</p>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div
+                        class="relative mx-auto w-64 h-[500px] bg-slate-900 rounded-[3rem] border-[8px] border-slate-800 shadow-2xl overflow-hidden">
+                        <div class="absolute top-0 w-full h-6 bg-slate-800"></div>
+                        <div class="h-full w-full bg-white overflow-hidden">
+                            <div class="p-4 bg-teal-600 text-white flex items-center gap-3">
+                                <div class="w-8 h-8 bg-white rounded-full"></div>
+                                <span class="font-bold text-sm">Asistente Dental IA</span>
+                            </div>
+                            <div class="p-4 space-y-4">
+                                <div class="bg-slate-100 p-3 rounded-lg rounded-tl-none text-xs text-slate-700 w-3/4">
+                                    ¡Hola! Bienvenido a OrtoImplant. ¿Buscas información sobre implantes o brackets?
+                                </div>
+                                <div
+                                    class="bg-teal-500 p-3 rounded-lg rounded-tr-none text-xs text-white w-3/4 ml-auto">
+                                    Hola, quiero saber el precio de los implantes.
+                                </div>
+                                <div class="bg-slate-100 p-3 rounded-lg rounded-tl-none text-xs text-slate-700 w-3/4">
+                                    Los precios varían según el caso, pero podemos agendarte una evaluación gratuita con
+                                    la Dra. Mirna.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-teal-400 rounded-full filter blur-3xl opacity-30">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================================================
+       7. FOOTER
+       =================================================================================== -->
+    <footer class="bg-slate-900 text-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">OrtoImplant</h3>
+                    <p class="text-slate-400">Cuidamos tu sonrisa con la tecnología más avanzada de Machala.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contacto Directo</h4>
+                    <ul class="space-y-3 text-slate-400">
+                        <li class="flex items-center gap-3"><span>📞</span> 098-463-8763</li>
+                        <li class="flex items-center gap-3"><span>📍</span> Colón 1704 y 25 de Junio, Machala</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Horarios</h4>
+                    <ul class="space-y-2 text-slate-400 text-sm">
+                        <li>Lun a Vie: 9:00 am – 7:00 pm</li>
+                        <li>Sáb: 9:00 am – 2:00 pm</li>
+                        <li>Dom: Cerrado</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-slate-800 mt-12 pt-8 text-center text-slate-500 text-sm">
+                &copy; 2024 OrtoImplant. Desarrollado por <span class="text-teal-500 font-bold">Aizly Web</span>.
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÓN FLOTANTE DEL CHATBOT -->
+    <a href="https://sonrisaok.vercel.app/" target="_blank"
+        class="fixed bottom-6 right-6 z-50 flex items-center justify-center w-16 h-16 bg-teal-600 text-white rounded-full shadow-2xl hover:bg-teal-700 transition-all hover:scale-110 group cursor-pointer">
+        <span class="text-3xl group-hover:rotate-12 transition-transform">🤖</span>
+        <span
+            class="absolute right-20 bg-slate-800 text-white text-xs py-2 px-4 rounded-full opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
+            ¡Habla con nuestra IA!
+        </span>
+    </a>
+
+</body>
+
+</html>
